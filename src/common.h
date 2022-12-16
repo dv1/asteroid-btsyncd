@@ -44,6 +44,10 @@
 #define SCREENSHOT_MAIN_IFACE        "org.nemomobile.lipstick"
 #define SCREENSHOT_PATH_BASE         "/org/nemomobile/lipstick/screenshot"
 
+#define EXT_APP_MSG_SERVICE_NAME_BASE "org.asteroidos.externalappmessages"
+#define EXT_APP_MSG_MAIN_IFACE        "org.asteroidos.externalappmessages.interfaces.Receiver"
+#define EXT_APP_MSG_PATH_BASE         "/org/asteroidos/externalappmessages/BGDataReceiver"
+
 /* GATT Services and Characteristics UUIDs */
 
 #define MEDIA_UUID        "00007071-0000-0000-0000-00A57E401D05"
@@ -73,5 +77,8 @@
 
 #define TIME_UUID         "00005071-0000-0000-0000-00A57E401D05"
 #define TIME_SET_UUID     "00005001-0000-0000-0000-00A57E401D05"
+
+#define EXT_APP_UUID      "0000A071-0000-0000-0000-00A57E401D05"
+#define EXT_APP_PUSH_UUID "0000A001-0000-0000-0000-00A57E401D05"
 
 #endif // COMMON_H

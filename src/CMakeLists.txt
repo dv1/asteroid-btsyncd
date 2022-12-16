@@ -6,6 +6,7 @@ set(SRC
 	batteryservice.cpp
 	screenshotservice.cpp
 	timeservice.cpp
+	externalappmsgservice.cpp
 	service.cpp
 	characteristic.cpp
 	descriptor.cpp
@@ -21,6 +22,7 @@ set(HEADERS
 	batteryservice.h
 	screenshotservice.h
 	timeservice.h
+	externalappmsgservice.h
 	service.h
 	characteristic.h
 	descriptor.h
